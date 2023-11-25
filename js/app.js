@@ -18,8 +18,5 @@ function clock(){
 
 clock()
 
-setInterval(()=>{clock()}, 1000)
-
-// or
-// function f(){clock()}
-
+setInterval(function f(){clock()}, 1000)
+// setInterval(()=>{clock()}, 1000)
