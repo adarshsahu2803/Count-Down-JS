@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.main{
+    background: url(/Images/room.jpg) center center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title{
+    margin: 2%;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    /* border: 1px red solid; */
+    margin-top: 30px; 
+    display:flex;
+    justify-content: center;
+    color: white;
+ }
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+label{
+    justify-content: center;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    /* display: block; */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    text-align: center;
+}
